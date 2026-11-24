@@ -2,11 +2,14 @@ name: Streamlit CI
 
 on:
   push:
-    branches: ["main", "**"]
-  paths:
-    - "AISE_Cloud_Deployment_Practical/**"
-    - ".github/workflows/**"
+    branches:
+      - main
+    paths:
+      - "AISE_Cloud_Deployment_Practical/**"
+      - ".github/workflows/**"
   pull_request:
+    branches:
+      - main
     paths:
       - "AISE_Cloud_Deployment_Practical/**"
       - ".github/workflows/**"
