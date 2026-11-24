@@ -16,9 +16,7 @@ py -m streamlit run app.py
 
 ## AI-assisted troubleshooting activity
 
-## Streamlit Deployment Troubleshooting
-
-### Problem
+### Problem (Streamlit Deployment Troubleshooting)
 
 My Streamlit application works locally, but the GitHub Actions deployment/workflow fails with this error:
 
